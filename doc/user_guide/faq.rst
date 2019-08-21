@@ -15,7 +15,7 @@ altair to an environment capable of executing the javascript code that
 turns the JSON specification into a visual chart.
 
 There are extensions included in JupyterLab, Jupyter Notebook, Colab,
-Kaggle kernels, Hydrogen, and nteract that know how to automatically perform
+Kaggle kernels, Hydrogen, CoCalc and nteract that know how to automatically perform
 this rendering (see :ref:`installation` for details).
 
 For other frontends that don't have vega-lite rendering built-in, it is

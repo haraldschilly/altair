@@ -57,6 +57,7 @@ Altair displays visualizations using renderers. There are two aspects of rendere
   * :ref:`display-jupyterlab`
   * :ref:`display-nteract`
   * :ref:`display-colab`
+  * :ref:`display-cocalc`
 
 .. _renderer-api:
 
@@ -192,9 +193,18 @@ Altair plots without any extra configuration.
 
 Displaying in Colab
 ~~~~~~~~~~~~~~~~~~~
-Google's Colab is a cloud-based notebook backed by Google Drive.
+Google's Colab_ is a cloud-based notebook backed by Google Drive.
 Colab comes with Altair pre-installed and with the ``'colab'`` renderer
 enabled, so Altair will work out-of-the-box.
+
+.. _display-cocalc:
+
+Displaying in CoCalc
+~~~~~~~~~~~~~~~~~~~~
+CoCalc_  is a cloud-based notebook backed by Google Drive.
+CoCalc's default software environment comes with Altair pre-installed
+and enables the ``'cocalc'`` renderer.
+Therefor, Altair will work out-of-the-box.
 
 .. _display-general:
 
@@ -286,3 +296,4 @@ using the :meth:`Chart.display` method::
 .. _Vega-Lite: http://vega.github.io/vega-lite
 .. _Vega: https://vega.github.io/vega/
 .. _VegaScope: https://github.com/scikit-hep/vegascope
+.. _CoCalc: https://cocalc.com

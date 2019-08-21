@@ -55,6 +55,11 @@ colab_renderer = HTMLRenderer(mode='vega',
                               vega_version=VEGA_VERSION,
                               vegaembed_version=VEGAEMBED_VERSION)
 
+cocalc_renderer = HTMLRenderer(mode='vega',
+                              fullhtml=True, requirejs=False,
+                              output_div='altair-viz',
+                              vega_version=VEGA_VERSION,
+                              vegaembed_version=VEGAEMBED_VERSION)
 
 kaggle_renderer = HTMLRenderer(mode='vega',
                                fullhtml=False, requirejs=True,
@@ -66,6 +71,7 @@ renderers.register('default', default_renderer)
 renderers.register('jupyterlab', default_renderer)
 renderers.register('nteract', default_renderer)
 renderers.register('colab', colab_renderer)
+renderers.register('cocalc', cocalc_renderer)
 renderers.register('kaggle', kaggle_renderer)
 renderers.register('json', json_renderer)
 renderers.enable('default')

@@ -49,6 +49,8 @@ The renderers built-in to Altair are the following:
 - ``"nteract"``: identical to ``"default"``
 - ``"colab"``: renderer for Google's Colab notebook, using the
   ``"text/html"`` MIME type.
+- ``"cocalc"``: renderer for CoCalc's Jupyter Notebooks, using the
+  ``"text/html"`` MIME type.
 - ``"notebook"``: renderer for the classic notebook, provided by the ipyvega_
   package
 - ``"json"``: renderer that outputs the raw JSON chart specification, using the

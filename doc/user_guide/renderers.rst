@@ -44,8 +44,20 @@ Altair ships with the following renderers:
 
   For more information, see :ref:`display-colab`.
 
+
+**CoCalc**
+  CoCalc_ requires use of the ``cocalc`` renderer, which will be enabled by
+  default when Altair is imported.
+  To switch back to it after another renderer has been enabled, use::
+
+      alt.renderers.enable('cocalc')
+
+  For more information, see :ref:`display-cocalc`.
+
+
 .. _JupyterLab: http://jupyterlab.readthedocs.io/en/stable/
 .. _nteract: https://nteract.io
 .. _Colab: https://colab.research.google.com
 .. _Jupyter Notebook: https://jupyter-notebook.readthedocs.io/en/stable/
 .. _vega: https://github.com/vega/ipyvega/tree/vega
+.. _CoCalc: https://cocalc.com
